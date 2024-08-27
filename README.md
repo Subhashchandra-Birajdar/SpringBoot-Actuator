@@ -35,6 +35,10 @@ This repository contains a Spring Boot application with Actuator enabled. Spring
 - Check the health of your application: `http://localhost:8080/admin/actuator/health`
 - View application metrics: `http://localhost:8080/admin/actuator/metrics`
 - Other Actuator Endpoints: Depending on which endpoints are available, you can access other endpoints in a similar manner : `http://localhost:8080/admin/actuator/beans`
+- Displays environment properties and configurations : `http://localhost:8080/admin/actuator/env`
+- Shows application information such as build version and custom details : `http://localhost:8080/admin/actuator/info`
+- Provides a thread dump of the JVM : `http://localhost:8080/admin/actuator/threaddump`
+- Allows you to view and modify the logging levels at runtime : `http://localhost:8080/admin/actuator/loggers`
 - Explore other Actuator endpoints for monitoring and managing your application.
 
 ## Contributing
