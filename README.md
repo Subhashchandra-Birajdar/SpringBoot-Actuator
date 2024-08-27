@@ -34,7 +34,7 @@ This repository contains a Spring Boot application with Actuator enabled. Spring
 
 - Check the health of your application: `http://localhost:8080/admin/actuator/health`
 - View application metrics: `http://localhost:8080/admin/actuator/metrics`
-- Other Actuator Endpoints: Depending on which endpoints are available, you can access other endpoints in a similar manner : `http://localhost:8080/admin/actuator/beans'
+- Other Actuator Endpoints: Depending on which endpoints are available, you can access other endpoints in a similar manner : `http://localhost:8080/admin/actuator/beans`
 - Explore other Actuator endpoints for monitoring and managing your application.
 
 ## Contributing
